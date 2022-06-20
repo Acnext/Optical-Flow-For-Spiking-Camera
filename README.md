@@ -6,7 +6,7 @@ This repository contains the official source code for our paper:
 
 CVPR 2022
 
-Liwen Hu1,2,* , Rui Zhao1,* , Ziluo Ding1 , Lei Ma1,2 , Boxin Shi1,2,3 , Ruiqin Xiong1 and Tiejun Huang1,2,3 
+Liwen Hu1,2,* , Rui Zhao1,* , Ziluo Ding1 , Lei Ma1,2 , Boxin Shi1,2,3 , Ruiqin Xiong1 and Tiejun Huang1,2,3  
 1 NERCVT, School of Computer Science, Peking University  
 2 Beijing Academy of Artificial Intelligence  
 3 Institute for Artificial Intelligence, Peking University  
