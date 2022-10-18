@@ -1,15 +1,12 @@
-# Optical Flow Estimation for Spiking Camera
+## [CVPR 2022] Optical Flow Estimation for Spiking Camera ([Paper](https://openaccess.thecvf.com/content/CVPR2022/html/Hu_Optical_Flow_Estimation_for_Spiking_Camera_CVPR_2022_paper.html))
 
-This repository contains the official source code for our paper:
+<h4 align="center"> Liwen Hu<sup>1,2#</sup>, Rui Zhao<sup>1#</sup>, Ziluo Ding<sup>1</sup>, Lei Ma<sup>1,2</sup>, Boxin Shi<sup>1,2,3</sup>, Ruiqin Xiong<sup>1</sup>, Tiejun Huang<sup>1,2,3</sup> </h4>
+<h4 align="center">1. NERCVT, School of Computer Science, Peking University <br>
+    2. Beijing Academy of Artificial Intelligence <br>
+	3. Institute for Artificial Intelligence, Peking University</h4><br> 
 
-[Optical Flow Estimation for Spiking Camera](https://arxiv.org/abs/2110.03916)
 
-CVPR 2022
-
-Liwen Hu1,2,* , Rui Zhao1,* , Ziluo Ding1 , Lei Ma1,2 , Boxin Shi1,2,3 , Ruiqin Xiong1 and Tiejun Huang1,2,3  
-1 NERCVT, School of Computer Science, Peking University  
-2 Beijing Academy of Artificial Intelligence  
-3 Institute for Artificial Intelligence, Peking University  
+Spiking Camera Simulator (SPCS) sees https://github.com/Acnext/Spiking-Camera-Simulator-SPCS
 
 ## Environments
 
@@ -63,8 +60,25 @@ The dataset includes 100 scenes and each scene describes that different kinds of
 ### PHM
 
 Each scene in the dataset is carefully designed and has a lot in common with the real world as shown in Fig. 2.  Besides, the number of generated spike frames for each scene is shown in Table. 1.
+
+For PHM dataset, the motion distribution of "Fly" is extreme. The subsequent methods can use this scene optionally.
+
 <img src="https://github.com/Acnext/Optical-Flow-For-Spiking-Camera/blob/main/figs/phm.jpg" width="100%">
 
 | Ball | Cook | Dice | Doll | Fan  | Fly  | Hand | Jump | Poker | Top  |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ---- | ----- | ---- |
 | 1000 | 4000 | 4000 | 3000 | 1000 | 4500 | 2000 | 1400 | 3200  | 1000 |
+
+## Citation
+
+If you think this work is helpful, please cite
+
+```
+@inproceedings{hu2022optical,
+  title={Optical Flow Estimation for Spiking Camera},
+  author={Hu, Liwen and Zhao, Rui and Ding, Ziluo and Ma, Lei and Shi, Boxin and Xiong, Ruiqin and Huang, Tiejun},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages={17844--17853},
+  year={2022}
+}
+```
