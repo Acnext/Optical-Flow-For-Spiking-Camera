@@ -92,9 +92,9 @@ class FlowEstimator(nn.Module):
         return x_out
 
 
-class scflow(nn.Module):
+class SCFlow(nn.Module):
     def __init__(self, batchNorm):
-        super(scflow, self).__init__()
+        super(SCFlow, self).__init__()
         self.batchNorm = batchNorm
         self.search_range = 4
         self.num_chs = [32, 32, 64, 96, 128]
@@ -174,7 +174,7 @@ class scflow(nn.Module):
 
 
 def scflow(data=None, batchNorm=False):
-    model = scflow(batchNorm=batchNorm)
+    model = SCFlow(batchNorm=batchNorm)
     if data is not None:
         model.load_state_dict(data['state_dict'])
     else:
