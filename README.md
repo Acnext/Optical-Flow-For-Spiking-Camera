@@ -61,7 +61,7 @@ The dataset includes 100 scenes and each scene describes that different kinds of
 
 Each scene in the dataset is carefully designed and has a lot in common with the real world as shown in Fig. 2.  Besides, the number of generated spike frames for each scene is shown in Table. 1.
 
-For PHM dataset, the motion distribution of "Fly" is extreme. The subsequent methods can use this scene optionally.
+For PHM dataset, the motion of "Fly" is extreme. We recommend subsequent methods omit this scene. We will update this scene in future work.
 
 <img src="https://github.com/Acnext/Optical-Flow-For-Spiking-Camera/blob/main/figs/phm.jpg" width="100%">
 
